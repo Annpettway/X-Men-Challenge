@@ -28,7 +28,7 @@ namespace X_Men_Challenge
             {
                 if (numbers[i] == numbers.Max())
                 {
-                    result += String.Format("Most Battles belong to: {0} (Value: {1})hywe<br/>", names[i], numbers[i]);
+                    result += String.Format("Most Battles belong to: {0} (Value: {1})<br/>", names[i], numbers[i]);
                 }
 
                 if (numbers[i] == numbers.Min())
